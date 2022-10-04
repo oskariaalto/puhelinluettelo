@@ -32,6 +32,8 @@ let persons = [
 
 app.use(express.json())
 
+app.use(express.static('build'))
+
 morgan.token('data', function getData(request) {
     const body = request.body
     return JSON.stringify({name:body.name, number: body.number})
