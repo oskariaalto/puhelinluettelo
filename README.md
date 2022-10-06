@@ -1,1 +1,1 @@
-https://mighty-woodland-65929.herokuapp.com/api/persons
+https://mighty-woodland-65929.herokuapp.com
